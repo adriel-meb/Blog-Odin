@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/blogs
+Content-Type: application/json
+
+{
+	"title":"Come on test!",
+	"body":"it is just a test for the body of text hehehe"
+}
+
+### 
+
+GET http://localhost:8080/api/blogs
